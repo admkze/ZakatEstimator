@@ -1,0 +1,26 @@
+<resources>
+    <!-- General App Strings -->
+    <string name="app_name">Zakat Estimator</string>
+
+    <!-- Input Hints -->
+    <string name="gold_weight_hint">Enter gold weight (grams)</string>
+    <string name="gold_value_hint">Enter gold value per gram (RM)</string>
+
+    <!-- Labels -->
+    <string name="gold_type">Gold Type</string>
+    <string name="keep">Keep</string>
+    <string name="wear">Wear</string>
+    <string name="calculate">Calculate Zakat</string>
+    <string name="about">About</string>
+    <string name="total_value_label">Total Value:</string>
+    <string name="zakat_payable_label">Zakat Payable:</string>
+    <string name="total_zakat_label">Total Zakat:</string>
+
+    <!-- About Page -->
+
+    <string name="developer_name">Developed by : ADAM PUTRA BIN ABD RAHIM</string>
+    <string name="student_number">Student Number: 2022462148</string>
+    <string name="programme_code">Programme: CDCS240</string>
+    <string name="copyright">Copyright © adamputra2024</string>
+    <string name="github_repo">https://github.com/admkze/zakatestimator</string>
+</resources>

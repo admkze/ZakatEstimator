@@ -1,0 +1,5 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#992F2F</color>
+    <color name="link_color">#007BFF</color> <!-- Example blue color for links -->
+</resources>

@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABBD99"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/developer_name"
+        android:src="@drawable/profile_picture" />
+
+    <!-- TextView for Developed By -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="@string/developer_name"
+        android:textSize="16sp" />
+
+    <!-- TextView for Student Number -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="@string/student_number"
+        android:textSize="16sp" />
+
+    <!-- TextView for Programme -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="@string/programme_code"
+        android:textSize="16sp" />
+
+    <!-- Copyright TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="@string/copyright"
+        android:textSize="16sp" />
+
+    <!-- GitHub Repository TextView with Link -->
+    <TextView
+        android:id="@+id/textGitHub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:paddingBottom="8dp"
+        android:text="https://github.com/admkze/ZakatEstimator.git"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:textSize="16sp" />
+
+</LinearLayout>
